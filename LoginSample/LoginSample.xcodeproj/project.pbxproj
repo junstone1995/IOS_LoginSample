@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -97,7 +97,6 @@
 				247A11C5FC3E7A37D4B90DD3 /* Pods-LoginSample.debug.xcconfig */,
 				FD6C7025AA29E4DCADB52530 /* Pods-LoginSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -113,6 +112,7 @@
 				AF99F07E26E8A28400CBB23F /* Frameworks */,
 				AF99F07F26E8A28400CBB23F /* Resources */,
 				C517770E715C21E28FB4F187 /* [CP] Embed Pods Frameworks */,
+				1AC412646B7A9D693421B14E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,6 +170,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1AC412646B7A9D693421B14E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginSample/Pods-LoginSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginSample/Pods-LoginSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginSample/Pods-LoginSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		590ABA10F7FFE59EFEBD65BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
